@@ -1,0 +1,27 @@
+#inputContainer {
+    padding-top: 75px;
+}
+#buttonContainer {
+    padding-top: 15px;
+
+}
+#outputContainer {
+    padding-top: 25px;
+}
+#chart {
+    text-align: left;
+}
+#environmentalLimitsChartContainer {
+    padding-top: 25px;
+}
+#environmentalDataChartContainer {
+    padding-top: 25px;
+}
+#footer {
+    padding-top: 300px;
+    text-align: center;
+    color: gray;
+}
+i {
+    padding: 7px 7px 7px 7px;
+}
