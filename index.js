@@ -339,7 +339,7 @@ function runFunction(){
   
   var logAvailableWindowsTemp = "";
   for (var i = 0; i <=logAvailableWindows.length; i++) {
-         logAvailableWindowsTemp = logAvailableWindowsTemp + logAvailableWindows[i] + "\n"
+         logAvailableWindowsTemp = logAvailableWindowsTemp + logAvailableWindows[i] + "\n";
   }
   
   console.log(outputLog);
