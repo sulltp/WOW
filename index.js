@@ -59,10 +59,10 @@ function resetFunction() {
     document.getElementById("windSwitch").checked = false;
     waveToggle();
     windToggle();
-    document.getElementById("waveLimitsHTML").value="Replace this text with wave limits in 1 hours intervals, separated by commas.";
-    document.getElementById("waveDataHTML").value="Replace this text with wave data in 1 hours intervals, separated by commas.";
-    document.getElementById("windLimitsHTML").value="Replace this text with wind limits in 1 hours intervals, separated by commas.";
-    document.getElementById("windDataHTML").value="Replace this text with wind data in 1 hours intervals, separated by commas.";
+    document.getElementById("waveLimitsHTML").value="";
+    document.getElementById("waveDataHTML").value="";
+    document.getElementById("windLimitsHTML").value="";
+    document.getElementById("windDataHTML").value="";
     document.getElementById("btn_run").setAttribute('disabled','disabled');
     document.getElementById("btn_chart").setAttribute('disabled','disabled');
     document.getElementById("btn_check").setAttribute('disabled','disabled');
