@@ -336,10 +336,16 @@ function runFunction(){
   } else {
     outputInfo = "No successful starts found";
   }
+  
+  var logAvailableWindowsTemp =[];
+  for (var i = 0; i <=logAvailableWindows.length; i++) {
+         logAvailableWindowsTemp.push = logAvailableWindows[i] + "\n"
+  }
+  
   console.log(outputLog);
   console.log(outputInfo);
   document.getElementById("outputLog").textContent = outputLog;
-  document.getElementById("outputData").textContent = logAvailableWindows;
+  document.getElementById("outputData").textContent = logAvailableWindowsTemp;
   }
 }
 
