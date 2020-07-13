@@ -337,9 +337,9 @@ function runFunction(){
     outputInfo = "No successful starts found";
   }
   
-  var logAvailableWindowsTemp =[];
+  var logAvailableWindowsTemp = "";
   for (var i = 0; i <=logAvailableWindows.length; i++) {
-         logAvailableWindowsTemp.push = logAvailableWindows[i] + "\n"
+         logAvailableWindowsTemp = logAvailableWindowsTemp + logAvailableWindows[i] + "\n"
   }
   
   console.log(outputLog);
